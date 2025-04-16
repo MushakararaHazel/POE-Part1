@@ -31,3 +31,16 @@ chatbotengine
 audio
 userainterface
 responses
+Reference list:  
+
+adegeo (n.d.). How to: Play a Sound from a Windows Form - Windows Forms .NET Framework. [online] learn.microsoft.com. Available at: https://learn.microsoft.com/en-us/dotnet/desktop/winforms/controls/how-to-play-a-sound-from-a-windows-form?view=netframeworkdesktop-4.8. [Assessed on 16 April 2025]. 
+
+ 
+
+dotnet-bot (2025). Console.ForegroundColor Property (System). [online] Microsoft.com. Available at: https://learn.microsoft.com/en-us/dotnet/api/system.console.foregroundcolor?view=net-9.0. [Assessed on 16 April 2025]. 
+
+ 
+
+BillWagner (n.d.). Classes and objects - C# Fundamentals tutorial. [online] learn.microsoft.com. Available at: https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/classes. [Assessed on 16 April 2025]. 
+
+‌Text to ASCII: The best ASCII Art Generator & Maker. (n.d.). Text to ASCII: The best ASCII Art Generator & Maker. [online] Available at: https://www.asciiart.eu/text-to-ascii-art. [Assessed on 16 April 2025]. 
