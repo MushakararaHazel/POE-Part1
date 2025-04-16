@@ -9,6 +9,7 @@ namespace CyberSecurity_Chatbot
 {
     public class Audio
     {
+        //plays the welcome sound
        public  void PlayWelcomeSound() {
         try
             {

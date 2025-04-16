@@ -14,6 +14,7 @@ namespace CyberSecurity_Chatbot
         {
             _ui = ui;
         }
+        //phishing information response
         public void ShowPhishingInfo()
         {
             _ui.TypingEffect("Phishing is a cyber attack that uses disguised email as a weapon.", ConsoleColor.Green);
@@ -27,6 +28,7 @@ namespace CyberSecurity_Chatbot
             _ui.TypingEffect("- Look for spelling/grammar mistakes", ConsoleColor.Green);
             _ui.TypingEffect("- Hover over links before clicking", ConsoleColor.Green);
         }
+        //information on password tips
         public void ShowPasswordTips()
         {
             _ui.TypingEffect("Strong password guidelines:", ConsoleColor.Green);
@@ -36,6 +38,7 @@ namespace CyberSecurity_Chatbot
             _ui.TypingEffect("- Avoid common words or personal info", ConsoleColor.Green);
             _ui.TypingEffect("- Don't reuse passwords across sites", ConsoleColor.Green);
         }
+        //information on suspicious links 
         public void ShowSuspiciousLinksInfo()
         {
             _ui.TypingEffect("How to recognize suspicious links:", ConsoleColor.Green);
@@ -50,7 +53,8 @@ namespace CyberSecurity_Chatbot
             Thread.Sleep(300);
             _ui.TypingEffect("5. Don't click links in unexpected emails or messages", ConsoleColor.Green);
 
-        }
+        } 
+      //info on two factor auth
         public void ShowTwoFactorAuthInfo()
         {
             _ui.TypingEffect("Two-Factor Authentication (2FA) adds an extra security layer:", ConsoleColor.Green);

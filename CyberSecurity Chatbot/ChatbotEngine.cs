@@ -41,12 +41,13 @@ namespace CyberSecurity_Chatbot
             _ui.DisplayFarewell(userName);
 
         }
+        //the user menu for selection 
         private bool ProcessUserChoice(string userName)
         {
 
             string input = Console.ReadLine();
         Console.WriteLine();
-
+            // selection to choose right response according to the input 
             switch (input)
             {
                 case "1":

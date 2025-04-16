@@ -8,13 +8,14 @@ using System.Threading;
 namespace CyberSecurity_Chatbot
 {
     public class UserInterface
-    {
+    { // colour contants for consistent UI theming
         private const ConsoleColor TitleColor = ConsoleColor.Cyan;
         private const ConsoleColor BotColor = ConsoleColor.Green;
         private const ConsoleColor UserColor = ConsoleColor.Yellow;
         private const ConsoleColor WarningColor = ConsoleColor.Red;
         private const ConsoleColor InfoColor = ConsoleColor.Blue;
 
+        //will display the ASCII ART HEADER 
         public void DisplayayHeader()
         {
             Console.ForegroundColor = TitleColor;
@@ -34,7 +35,7 @@ namespace CyberSecurity_Chatbot
 
         }
         public string GetUserName()
-        {
+        {//gets the users name
 
             TypingEffect("Hello! Before we begin, may I have your name?", BotColor);
             Console.ForegroundColor = UserColor;
@@ -57,7 +58,7 @@ namespace CyberSecurity_Chatbot
         }
 
 
-       
+       //displays the main menu options
         public void DisplayMenu(string userName)
         {
             Console.WriteLine();
@@ -90,6 +91,7 @@ namespace CyberSecurity_Chatbot
             Console.WriteLine();
             Console.ResetColor();
         }
+        //display exit message 
         public void DisplayFarewell(string userName)
         {
             Console.WriteLine();
